@@ -1,0 +1,242 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	background: url("../images/intro.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: black;
+}
+
+
+
+/* container */
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+
+
+}
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	width: 100%;
+	height: 100vh;
+
+}
+
+.intro_title {
+	color: #fff;
+	font-size: 138px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1;
+}
+
+.intro_title:after {
+	content: "";
+	display: block;
+	width: 68px;
+	height: 3px;
+	margin: 60px auto;
+
+	background-color: #fff;
+}
+
+.intro_suptitle {
+	margin-bottom: 15px;
+
+	font-family: 'Kaushan Script', cursive;
+	font-size: 30px;
+	color: #fff;
+}
+
+.intro_inner {
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+
+/* Header */
+.header {
+	width: 100%;
+	padding-top: 30px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_logo {
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+}
+
+
+
+/* nav */
+.nav {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.nav_link {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+	position: relative;
+
+	color: #fff;
+	text-decoration: none;
+
+	transition: 0.2s linear;
+}
+
+.nav_link:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+
+	background-color: #C0C0C0;
+	opacity: 0;
+
+	position: relative;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+
+	transition: 0.2s linear;
+}
+
+.nav_link:hover {
+	color: #C0C0C0;
+	font-size: 16px;
+}
+
+.nav_link:hover:after {
+	opacity: 1;
+}
+
+
+/* Button */
+.button {
+	display: inline-block;
+	vertical-align: top;
+
+	padding: 10px 15px;
+	margin: 1px;
+
+	border: 3px solid #fff; 
+	
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	transition: 0.2s linear;
+}
+
+.button:hover {
+	font-size: 20px;
+	background: #fff;
+	color: #333;
+}
+
+.borders{
+	width: 1050px;
+	border: none;
+	padding: 10px;
+	background-color: #292d40;
+	text-align: center;
+	opacity: 1;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.video{
+	margin: 10px;
+}
+
+.gallery img{
+	transition: 1s;
+	padding: 5px;
+}
+
+.gallery img:hover{
+	transform: scale(1.1);
+}
+
+.map_header{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+.text{
+	color: #fff;
+}
+
+.trades_h{
+	text-transform: uppercase;
+	color: #fff;
+	margin-left: 30px;
+	border: none;
+	background-color: #701a25;
+	padding: 10px;
+	margin-right: 575px;
+}
+
+.borders_trades{
+	width: 1050px;
+	border: none;
+	padding: 10px;
+	background-color: #292d40;
+	text-align: center;
+	opacity: 1;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.trades_text{
+	color: black;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	border: none;
+	background-color: #fff;
+	margin-right: 575px; 
+	padding: 10px;
+}
+
+.trade_img{
+	width: 480px;
+	margin-left: 500px;
+}
+
+.trades_txt_block{
+	background-color: black;
+}
